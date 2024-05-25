@@ -1,0 +1,24 @@
+.containerDash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .dash {
+        width: 70%;
+
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .dashCards {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
